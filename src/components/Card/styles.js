@@ -9,7 +9,7 @@ export const Container = styled.div`
   width: 250px;
   height: 400px;
   background: #fff;
-  box-shadow: 3px 1px 2px #414141;
+  box-shadow: 2px 3px 3px #ccc;
 
   margin: 5px 15px;
   color: #414141;
@@ -29,5 +29,9 @@ export const Container = styled.div`
     text-align: justify;
     font-size: 13px;
     padding: 0 5px;
+  }
+
+  @media(max-width: 600px){
+    width: 70%;
   }
 `;

@@ -9,6 +9,19 @@ export const Container = styled.footer`
   height: 200px;
   background: #ccc;
   margin: 30px 0 70px 0;
+
+  .contacts-section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 25px;
+  }
+
+  @media(max-width: 700px){
+    flex-direction: column;
+    justify-content: center;
+    height: max-content;
+  }
 `;
 
 export const CertificationSection = styled.div`
@@ -26,7 +39,7 @@ export const CertificationSection = styled.div`
 export const SocialMedias = styled.div`
   align-self: flex-start;
   margin-top: 25px;
-
+  margin-right: 25px;
   display: flex;
   flex-direction: column;
   align-items: flex-start;

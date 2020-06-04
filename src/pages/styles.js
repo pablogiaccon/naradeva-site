@@ -108,8 +108,9 @@ export const Cards = styled.section`
     grid-template-columns: 1fr 1fr;
   }
   @media(max-width: 600px){
-    display: grid;
-    grid-template-columns: 1fr;
+    display: flex;
+    flex-direction: column;
+
   }
 `;
 
@@ -160,6 +161,7 @@ export const Ebook = styled.div`
       font-size: 30px;
       font-weight: bold;
       margin-bottom: 25px;
+      text-align: center;
     }
 
     button {
@@ -181,6 +183,24 @@ export const Ebook = styled.div`
     div{
       margin-right: 25px;
       margin-top: 25px;
+    }
+  }
+
+  @media(max-width: 700px){
+
+    justify-content: center;
+    align-items: center;
+    flex-direction: column-reverse;
+    div{
+      margin: 0;
+
+      p{
+        color:#D14407;
+      }
+
+      button{
+        width: 70%;
+      }
     }
   }
 `;
