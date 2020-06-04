@@ -1,0 +1,64 @@
+{
+  "name": "naradeva",
+  "private": true,
+  "description": "Instituto de Cultura Hindu Naradeva Shala",
+  "version": "0.1.0",
+  "license": "MIT",
+  "scripts": {
+    "build": "gatsby build",
+    "develop": "cross-env GATSBY_GRAPHQL_IDE=playground gatsby develop",
+    "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
+    "start": "npm run develop",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean",
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
+  },
+  "dependencies": {
+    "@react-google-maps/api": "^1.9.2",
+    "@unform/core": "^2.1.0",
+    "@unform/web": "^2.1.0",
+    "babel-plugin-styled-components": "^1.10.7",
+    "dotenv": "^8.2.0",
+    "fs": "0.0.2",
+    "gatsby": "^2.21.37",
+    "gatsby-plugin-canonical-urls": "^2.3.2",
+    "gatsby-plugin-catch-links": "^2.3.3",
+    "gatsby-plugin-google-analytics": "^2.3.2",
+    "gatsby-plugin-manifest": "^2.4.9",
+    "gatsby-plugin-nprogress": "^2.3.2",
+    "gatsby-plugin-offline": "^3.2.7",
+    "gatsby-plugin-page-creator": "^2.3.7",
+    "gatsby-plugin-react-helmet": "^3.3.2",
+    "gatsby-plugin-sitemap": "^2.4.3",
+    "gatsby-plugin-styled-components": "^3.3.2",
+    "gatsby-source-filesystem": "^2.3.8",
+    "gatsby-transformer-remark": "^2.8.13",
+    "lodash": "^4.17.15",
+    "minireset.css": "0.0.6",
+    "polished": "^3.6.4",
+    "react": "^16.13.1",
+    "react-dom": "^16.12.0",
+    "react-helmet": "^6.0.0",
+    "react-icons": "^3.10.0",
+    "styled-components": "^5.1.1",
+    "yup": "^0.29.1"
+  },
+  "devDependencies": {
+    "@hot-loader/react-dom": "^16.13.0",
+    "cross-env": "^7.0.2",
+    "eslint": "^7.1.0",
+    "eslint-config-airbnb": "^18.1.0",
+    "eslint-plugin-import": "2.20.1",
+    "eslint-plugin-jsx-a11y": "6.2.3",
+    "eslint-plugin-react": "7.19.0",
+    "eslint-plugin-react-hooks": "2.5.0",
+    "prettier": "2.0.5"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gatsbyjs/gatsby-starter-hello-world"
+  },
+  "bugs": {
+    "url": "https://github.com/gatsbyjs/gatsby/issues"
+  }
+}
